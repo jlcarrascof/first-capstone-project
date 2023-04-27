@@ -256,7 +256,7 @@ section.about-details p {
 }
   
 #program-outline {
-  background-image: url('./media/pattern_bg.png');
+  background-image: url('./assets/images/pattern_bg.png');
   background-size: 1.7em;
   background-color: #272a31;
   display: flex;
@@ -385,15 +385,15 @@ div.past-events figure > figcaption {
   gap: 10px;
   margin: 24px 0;
 }
-  
+
 .horse-card picture {
   flex: 0 0 30%;
-  background-image: url('./media/chess-background.jpg');
+  background-image: url('./assets/images/chess-board.jpg');
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: top left;
 }
-  
+
 .horse-card hr {
   width: 10%;
   margin: 10px 0;
