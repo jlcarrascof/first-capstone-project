@@ -11,13 +11,13 @@
 - **Laptops/Desktops:**
 
 ---
-# ![home_screenshot](https://user-images.githubusercontent.com/59707859/163657286-0844c43f-8c03-4056-a1b0-23f39e33348a.png)
+# ![home_screenshot](./assets/images/capstone-desktop.jpg)
 
 
 - **Mobile:**
 
 ---
-# ![Mobile screenshot](./media/images/home_mobile.PNG)
+# ![Mobile screenshot](./assets/images/capstone-mobile.jpg)
 
 
 
