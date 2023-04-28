@@ -1,21 +1,23 @@
-# Capstone Project: Web Dev Course 2022
+# Capstone Project: Web Dev Course 2023
 
-![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This is the first capstone project from microverse. this project is a website for web developement schools, were students can see new courses info programs and teachers . built using html/css and javascript
+# ![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
+
+
+> This is the first capstone project from microverse. this project is a website to promote the Roland Garros tournament, where people can know additional info about the tournaments and some featured players. It was built using HTML/CSS and Javascript
 
 ## Screenshots
 
 - **Laptops/Desktops:**
 
 ---
-![home_screenshot](https://user-images.githubusercontent.com/59707859/163657286-0844c43f-8c03-4056-a1b0-23f39e33348a.png)
+# ![home_screenshot](https://user-images.githubusercontent.com/59707859/163657286-0844c43f-8c03-4056-a1b0-23f39e33348a.png)
 
 
 - **Mobile:**
 
 ---
-![Mobile screenshot](./media/images/home_mobile.PNG)
+# ![Mobile screenshot](./media/images/home_mobile.PNG)
 
 
 
@@ -29,19 +31,19 @@
 
 ## Live Demo
 
-[Live Demo Link](https://souad988.github.io/S-EL-DevSchool/)
+# [Live Demo Link](https://jlcarrasco.github.io/capstone-project/)
 
 ## Intro video
 
 > By watching this short video, you will have a better understanding of our project and mission.
 
-[S_EL_WEBDEV?](https://www.loom.com/share/843c6c437bec450b874e5c855c6c4147)
+# [S_EL_WEBDEV?](https://www.loom.com/share/843c6c437bec450b874e5c855c6c4147)
 
 ## Getting started
 
 To get a local copy up and running follow these simple example steps.
 
-Clone the repo with `git clone git@github.com:souad988/S-EL-DevSchool.git`
+# Clone the repo with `git clone git@github.com:jlcarrasco/first-capstone-project.git`
 
 Run `npm install` from the command line
 
@@ -55,11 +57,11 @@ The app is deployed using Github Pages. You can view it by clicking the [Live De
 
 ## Author
 
-👤 **Souad El Mansouri**
+👤 **Javier Jesus Martínez Fariñas**
 
-- GitHub: [https://github.com/souad988](https://github.com/souad988)
-- Twitter: [@souadElmansouri](@souadElmansouri)
-- LinkedIn: [www.linkedin.com/in/souad-el-mansouri-4725491a0](www.linkedin.com/in/souad-el-mansouri-4725491a0)
+- GitHub: [https://github.com/jlcarrascof](https://github.com/jlcarrascof)
+- Twitter: [@javiersistemas](@javiersistemas)
+- LinkedIn: [www.linkedin.com/in/javierjmartinezf-4725491a0](www.linkedin.com/in/javierjmartinezf-4725491a0)
 
 ## 🤝 Contributing
 
@@ -80,4 +82,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
