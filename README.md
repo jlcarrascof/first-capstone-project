@@ -1,4 +1,4 @@
-# Capstone Project: Web Dev Course 2023
+# Capstone Project: Roland Garros 2023
 
 
 # ![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
