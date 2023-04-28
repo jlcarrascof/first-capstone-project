@@ -181,7 +181,7 @@ section.about-details h2 {
   margin: 16px 0;
 }
   
-.horse-card h3 {
+.player-card h3 {
   font-size: 14px;
   color: #272a31;
 }
@@ -231,7 +231,7 @@ section.about-details p {
   text-align: center;
 }
   
-.horse-card h5 {
+.player-card h5 {
   font-size: 13px;
   font-style: italic;
   font-weight: normal;
@@ -270,7 +270,7 @@ div.past-events figure > figcaption > span.caption {
   
 section.about-details h2 span,
 #program-outline > h2 span,
-#featured-horses > h2 span,
+#featured-players > h2 span,
 #partners > h2 span {
   display: block;
   position: relative;
@@ -328,7 +328,7 @@ div.past-events img {
   filter: grayscale(10%);
 }
   
-.horse-card picture > img {
+.player-card picture > img {
   width: 84%;
   margin-top: 13%;
   margin-left: 13%;
@@ -363,30 +363,30 @@ div.past-events figure > figcaption {
   font-weight: 700;
 }
   
-#featured-horses {
+#featured-players {
   display: flex;
   flex-direction: column;
   padding: 12px;
 }
   
-#featured-horses > h2 {
+#featured-players > h2 {
   color: #272a31;
   font-size: 17px;
   align-self: center;
   margin: 12px;
 }
   
-#featured-horses > ul {
+#featured-players > ul {
   padding: 24px 0;
 }
   
-#featured-horses .horse-card {
+#featured-players .player-card {
   display: flex;
   gap: 10px;
   margin: 24px 0;
 }
 
-.horse-card picture {
+.player-card picture {
   flex: 0 0 30%;
   background-image: url('./assets/images/chess-board.jpg');
   background-size: 65%;
@@ -394,13 +394,13 @@ div.past-events figure > figcaption {
   background-position: top left;
 }
 
-.horse-card hr {
+.player-card hr {
   width: 10%;
   margin: 10px 0;
   border: 1px #d3d3d3 solid;
 }
   
-.horse-card h6 {
+.player-card h6 {
   color: #4e4e50;
 }
   
@@ -539,7 +539,7 @@ div.breadcrumbs {
     align-self: center;
   }
   
-  .horse-card h5 {
+  .player-card h5 {
     font-size: 16px;
   }
   
@@ -588,7 +588,7 @@ div.breadcrumbs {
     font-size: 43px;
   }
   
-  .horse-card h3 {
+  .player-card h3 {
     font-size: 20px;
   }
   
@@ -673,27 +673,27 @@ div.breadcrumbs {
     margin-top: 32px;
   }
   
-  #featured-horses {
+  #featured-players {
     padding: 3.2em 10% 5em;
     margin: 0 auto;
   }
   
-  #featured-horses > h2 {
+  #featured-players > h2 {
     font-size: 24px;
   }
   
-  #featured-horses > ul {
+  #featured-players > ul {
     display: flex;
     flex-wrap: wrap;
   }
   
-  #featured-horses .horse-card {
+  #featured-players .player-card {
     display: flex;
     gap: 10px;
     flex: 1 1 50%;
   }
   
-  .horse-card h6 {
+  .player-card h6 {
     font-size: 15px;
   }
   

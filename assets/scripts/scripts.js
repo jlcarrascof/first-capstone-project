@@ -1,10 +1,10 @@
 const menuBtn = document.querySelector('#menu-button');
 const closeMenuBtn = document.querySelector('i.close-menu');
 const header = document.querySelector('header');
-const horseCardSkeleton = document.querySelector('#horse-card-skeleton');
-const featuredHorses = document.querySelector('#featured-horses ul');
+const playerCardSkeleton = document.querySelector('#player-card-skeleton');
+const featuredPlayers = document.querySelector('#featured-players ul');
 const body = document.querySelector('body');
-const FEATURED_HORSES = [
+const FEATURED_PLAYERS = [
   {
     name: 'Carlos Alcaraz',
     highlights: 'Single Ranking: 2 - Country: Spain',
@@ -58,17 +58,17 @@ const toggleMenu = () => {
   }
 };
 
-if (horseCardSkeleton) {
-  for (let i = 0; i < FEATURED_HORSES.length; i += 1) {
-    const card = horseCardSkeleton.cloneNode(true);
-    card.querySelector('img').src = FEATURED_HORSES[i].img;
-    card.querySelector('img').alt = FEATURED_HORSES[i].name;
-    card.querySelector('h3').textContent = FEATURED_HORSES[i].name;
-    card.querySelector('h5').textContent = FEATURED_HORSES[i].highlights;
-    card.querySelector('h6').textContent = FEATURED_HORSES[i].description;
-    featuredHorses.append(card);
+if (playerCardSkeleton) {
+  for (let i = 0; i < FEATURED_PLAYERS.length; i += 1) {
+    const card = playerCardSkeleton.cloneNode(true);
+    card.querySelector('img').src = FEATURED_PLAYERS[i].img;
+    card.querySelector('img').alt = FEATURED_PLAYERS[i].name;
+    card.querySelector('h3').textContent = FEATURED_PLAYERS[i].name;
+    card.querySelector('h5').textContent = FEATURED_PLAYERS[i].highlights;
+    card.querySelector('h6').textContent = FEATURED_PLAYERS[i].description;
+    featuredPlayers.append(card);
   }
-  horseCardSkeleton.remove();
+  playerCardSkeleton.remove();
 }
 
 menuBtn.onclick = toggleMenu;
