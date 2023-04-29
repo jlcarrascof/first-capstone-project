@@ -159,7 +159,7 @@ I'd like to give all my best wishes to you guys at Microverse community.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
