@@ -31,7 +31,7 @@
 
 ## Live Demo
 
-# [Live Demo Link](https://jlcarrasco.github.io/capstone-project/)
+# [Live Demo Link] (https://jlcarrascof.github.io/first-capstone-project/)
 
 ## Intro video
 
