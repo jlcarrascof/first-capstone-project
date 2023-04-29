@@ -155,7 +155,7 @@ section.about-details h2 {
 }
 
 #about-headline {
-  background-image: url('./media/about_us_bg.png');
+  background-image: url('../images/about_us_bg.png');
   background-repeat: no-repeat;
   background-position: left 100px;
   background-size: 300%;
