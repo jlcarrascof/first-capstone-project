@@ -1,6 +1,5 @@
 # Capstone Project: Roland Garros 2023
 
-
 # ![Microverse bagde](https://img.shields.io/badge/Microverse-blueviolet)
 
 
@@ -20,65 +19,152 @@
 # ![Mobile screenshot](./assets/images/capstone-mobile.jpg)
 
 
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- HTML/CSS
-- JS
-- Technologies:
-  - Git/Github
-  - Fontawesome
+# 📖 HTML/CSS & JavaScript capstone project - Conference page <a name="about-project"></a>
 
-## Live Demo
+**First capstone project** is a web page where you can find information about Rolland Garros Tournament.<br>
 
-# [Live Demo Link](https://jlcarrascof.github.io/first-capstone-project/)
+In [this video](https://www.loom.com/share/3592df7602c04fd7ae8531b6eca35715) you can find more information about this project.
 
-## Intro video
+## 🛠 Built With <a name="built-with"></a>
 
-> By watching this short video, you will have a better understanding of our project and mission.
+### Tech Stack <a name="tech-stack"></a>
 
-# [CAPSTONE PROJECT LOOM VIDEO](https://www.loom.com/share/3592df7602c04fd7ae8531b6eca35715)
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+  </ul>
 
-## Getting started
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
+  </ul>
 
-To get a local copy up and running follow these simple example steps.
+   <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
+  </ul>
 
-# Clone the repo with `git clone git@github.com:jlcarrasco/first-capstone-project.git`
+### Key Features <a name="key-features"></a>
 
-Run `npm install` from the command line
+- ** Roland Garros 2023 **
 
-Run `npx hint .` to test for HTML linting check
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Run `npx stylelint "**/*.{css,scss}"` to test for css/scss linting check
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Run `npx eslint .` to test for javascript linting check
+- [Live Demo Link](https://jlcarrascof.github.io/first-capstone-project/)
 
-The app is deployed using Github Pages. You can view it by clicking the [Live Demo Link](#Live-Demo) above.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+## 💻 Getting Started <a name="getting-started"></a>
 
-👤 **Javier Jesus Martínez Fariñas**
+To get a local copy up and running, follow these steps.
 
-- GitHub: [https://github.com/jlcarrascof](https://github.com/jlcarrascof)
-- Twitter: [@javiersistemas](@javiersistemas)
-- LinkedIn: [www.linkedin.com/in/javierjmartinezf-4725491a0](www.linkedin.com/in/javierjmartinezf-4725491a0)
+### Prerequisites
 
-## 🤝 Contributing
+In order to run this project you need:
+
+Text Editor 
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+  cd my-folder
+  git clone git@github.com:jlcarrasco/first-capstone-project.git 
+```
+
+### Install
+
+Install this project with:
+
+You don´t need to install this project
+
+### Usage
+
+To run the project, execute the following command:
+
+```
+  code first-capstone-project
+```
+### Run tests
+
+To run tests, run the following command:
+
+No tests available 
+
+### Deployment
+
+You can deploy this project using:
+
+Browser (Chrome recommended)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 Javier J. Martínez F.
+
+- GitHub: [@jlcarrascof]
+- Twitter: [@javiersistemas]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+No future features
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- This website is based off of [Cindy Shin's](https://www.behance.net/adagio07) design on Behance.
-- Here's is the link to the [design work](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-- This work is under the CC Commons license 4.0
+## ⭐️ Show your support <a name="support"></a>
 
-## Show your support
+If you like this project please contribute to make it better.
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- ACKNOWLEDGEMENTS -->
 
-This project is [MIT](./MIT.md) licensed.
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I'd like to give all my best wishes to you guys at Microverse community.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](LICENSE.md) licensed.
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+
+The original design is under [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Multimedia and content changes were made in this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
