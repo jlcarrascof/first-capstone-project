@@ -120,7 +120,7 @@ header nav a.highlighted-menu {
 }
 
 #headline {
-  background-image: url('./assets/images/bg-home.png');
+  background-image: url('../images/bg-home.png');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
