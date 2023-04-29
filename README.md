@@ -40,7 +40,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 HTML/CSS & JavaScript capstone project - Conference page <a name="about-project"></a>
+# 📖 HTML/CSS & JavaScript capstone project - Model: Conference page <a name="about-project"></a>
 
 **First capstone project** is a web page where you can find information about Rolland Garros Tournament.<br>
 
