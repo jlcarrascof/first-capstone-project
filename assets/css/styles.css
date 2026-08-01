@@ -186,14 +186,22 @@ section.about-details h2 {
   color: #272a31;
 }
 
-#headline > h3,
-#about-headline > h3 {
+#headline > .headline-greeting,
+#about-headline > .headline-greeting {
   color: #ee523c;
   margin: 24px 0;
+  font-weight: 700;
+  font-size: 1.17em;
 }
 
-#about-headline > h3 {
+#about-headline > .headline-greeting {
   text-align: center;
+}
+
+#headline > .headline-rights {
+  color: #4f4f4f;
+  margin: 16px 0;
+  font-weight: 700;
 }
 
 footer > p {
