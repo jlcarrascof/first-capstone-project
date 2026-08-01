@@ -256,7 +256,7 @@ section.about-details p {
 }
 
 #program-outline {
-  background-image: url('./assets/images/pattern_bg.png');
+  background-image: url('../images/pattern_bg.png');
   background-size: 1.7em;
   background-color: #272a31;
   display: flex;
@@ -388,7 +388,7 @@ div.past-events figure > figcaption {
 
 .player-card picture {
   flex: 0 0 30%;
-  background-image: url('./assets/images/chess-board.jpg');
+  background-image: url('../images/chess-board.jpg');
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: top left;

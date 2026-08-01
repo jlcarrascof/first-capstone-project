@@ -84,15 +84,23 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
-if (playerCardSkeleton) {
-  for (let i = 0; i < FEATURED_PLAYERS.length; i += 1) {
-    const card = playerCardSkeleton.cloneNode(true);
-    card.querySelector('img').src = FEATURED_PLAYERS[i].img;
-    card.querySelector('img').alt = FEATURED_PLAYERS[i].name;
-    card.querySelector('h3').textContent = FEATURED_PLAYERS[i].name;
-    card.querySelector('h5').textContent = FEATURED_PLAYERS[i].highlights;
-    card.querySelector('h6').textContent = FEATURED_PLAYERS[i].description;
-    featuredPlayers.append(card);
-  }
-  playerCardSkeleton.remove();
+const featuredPlayersContainer = document.querySelector('#featured-players-list');
+
+if (featuredPlayersContainer) {
+  FEATURED_PLAYERS.forEach((player) => {
+    const cardLi = document.createElement('li');
+    cardLi.className = 'player-card';
+    cardLi.innerHTML = `
+      <picture>
+        <img src="${player.img}" alt="${player.name}">
+      </picture>
+      <div class="lato">
+        <h3>${player.name}</h3>
+        <h5>${player.highlights}</h5>
+        <hr>
+        <h6>${player.description}</h6>
+      </div>
+    `;
+    featuredPlayersContainer.appendChild(cardLi);
+  });
 }
