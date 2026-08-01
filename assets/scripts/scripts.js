@@ -43,20 +43,46 @@ const FEATURED_PLAYERS = [
   },
 ];
 
+const openMenu = () => {
+  header?.classList.add('mobile-show');
+  header?.classList.remove('mobile-hidden');
+  body?.classList.add('lock-scroll');
+};
+
+const closeMenu = () => {
+  header?.classList.remove('mobile-show');
+  header?.classList.add('mobile-hidden');
+  body?.classList.remove('lock-scroll');
+};
+
 const toggleMenu = () => {
-  if (header.classList.length === 0) {
-    header.classList.add('mobile-show');
-    body.classList.add('lock-scroll');
-  } else if (header.classList.contains('mobile-hidden')) {
-    header.classList.add('mobile-show');
-    body.classList.add('lock-scroll');
-    header.classList.remove('mobile-hidden');
+  if (header?.classList.contains('mobile-show')) {
+    closeMenu();
   } else {
-    header.classList.remove('mobile-show');
-    body.classList.remove('lock-scroll');
-    header.classList.add('mobile-hidden');
+    openMenu();
   }
 };
+
+if (menuBtn) {
+  menuBtn.addEventListener('click', toggleMenu);
+}
+
+if (closeMenuBtn) {
+  closeMenuBtn.addEventListener('click', closeMenu);
+}
+
+// Auto-close menu when clicking any navigation link
+const navLinks = document.querySelectorAll('header nav a, header > ul a');
+navLinks.forEach((link) => {
+  link.addEventListener('click', closeMenu);
+});
+
+// Close menu with ESC key
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && header?.classList.contains('mobile-show')) {
+    closeMenu();
+  }
+});
 
 if (playerCardSkeleton) {
   for (let i = 0; i < FEATURED_PLAYERS.length; i += 1) {
@@ -70,6 +96,3 @@ if (playerCardSkeleton) {
   }
   playerCardSkeleton.remove();
 }
-
-menuBtn.onclick = toggleMenu;
-closeMenuBtn.onclick = toggleMenu;
