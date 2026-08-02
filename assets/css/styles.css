@@ -736,13 +736,13 @@ div.breadcrumbs {
   }
 
   div.breadcrumbs {
-    display: block;
-    position: relative;
-    right: -105%;
-    top: -30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     font-weight: 500;
     color: #2e2e2e;
     font-size: 14px;
+    margin-bottom: 12px;
   }
 
   div.breadcrumbs a {
