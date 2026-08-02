@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Roland Garros 2023</title>
+    <title>Roland Garros Tournament 2024</title>
 </head>
 <body>
     <header>
       <ul class="lato">
         <li>
-          <a href="#">
+          <a href="#" aria-label="Facebook link">
             <i class="bi bi-facebook"></i>
           </a>
         </li>
           <li>
-            <a href="#">
+            <a href="#" aria-label="Twitter link">
               <i class="bi bi-twitter"></i>
             </a>
           </li>
@@ -33,31 +35,31 @@
             <a href="#">Logout</a>
           </li>
         </ul>
-        <i class="bi bi-x close-menu"></i>
+        <i class="bi bi-x close-menu" aria-label="Close menu" role="button" tabindex="0"></i>
         <nav>
-          <a href="./index.html"><img src="./assets/images/logo-rg.svg" class="logo" alt="Roland Garros"></a>
+          <a href="./index.html"><img src="./assets/images/logo-rg.svg" class="logo" alt="Roland Garros Tournament logo"></a>
           <ul class="lato">
             <li><a href="about.html">About</a></li>
             <li><a href="#">News</a></li>
             <li><a href="#">Tournament</a></li>
             <li><a href="#">Tickets</a></li>
             <li><a href="#">Store</a></li>
-            <li><a href="#" class="highlighted-menu">Roland Garros 2023</a></li>
+            <li><a href="#" class="highlighted-menu">Roland Garros 2024</a></li>
           </ul>
         </nav>
     </header>
     <section id="headline">
-      <i class="bi bi-list" id="menu-button"></i>
-      <h3 class="lato">"Hello! Tennis Fans"</h3>
-      <h1 class="cocogoose">ROLAND GARROS 2023 <br>
+      <i class="bi bi-list" id="menu-button" aria-label="Open menu" role="button" tabindex="0"></i>
+      <p class="lato headline-greeting">"Hello! Tennis Fans"</p>
+      <h1 class="cocogoose">ROLAND GARROS 2024 <br>
         THE MAIN TENNIS EVENT IN THE SEASON IS COMING
-        IN MAY 2023
+        IN MAY 2024
       </h1>
       <p class="lato">Be part of it all in Opening Week (22-26 May)<br>
       Come and watch the qualifying matches, the stars on the practice courts and much more besides in Opening Week at this year’s Parisian Grand Slam event.</p>
-      <h2 class="cocogoose">22 MAY - 11 JUN 2023</h2>
-      <h4 class="lato">©2023 - all rights reserved
-        Fédération Française de Tennis</h4>
+      <h2 class="cocogoose">22 MAY - 11 JUN 2024</h2>
+      <p class="lato headline-rights">©2024 - all rights reserved
+        Fédération Française de Tennis</p>
     </section>
     <section id="program-outline">
       <h2 class="lato">Main Program <span></span></h2>
@@ -93,19 +95,7 @@
     </section>
     <section id="featured-players">
       <h2 class="lato">Featured Players <span></span></h2>
-      <ul>
-        <li class="player-card" id="player-card-skeleton">
-          <picture>
-            <img src="placeholder" alt="">
-          </picture>
-          <div class="lato">
-            <h3>heading placeholder</h3>
-            <h5>highlights placeholder</h5>
-            <hr>
-            <h6>description placeholder</h6>
-          </div>
-        </li>
-      </ul>
+      <ul id="featured-players-list"></ul>
     </section>
     <section id="partners">
       <h2 class="lato">Partners <span></span></h2>
@@ -118,8 +108,8 @@
       </ul>
     </section>
     <footer class="lato">
-      <img src="./assets/images/logo-rg.svg" class="logo" alt="Roland Garros">
-      <p>©2023 - all rights reserved. Fédération Française de Tennis <br>
+      <img src="./assets/images/logo-rg.svg" class="logo" alt="Roland Garros Tournament logo">
+      <p>©2024 - all rights reserved. Fédération Française de Tennis <br>
         All content on the website, unless otherwise specified, is available under a Creative Commons Attribution</p>
     </footer>
     <script src="./assets/scripts/scripts.js"></script>

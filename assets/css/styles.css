@@ -18,11 +18,11 @@ li {
 
 .hidden,
 .mobile-hidden {
-  animation: slide-out 1s forwards;
+  transform: translateX(-100%);
 }
 
 .mobile-show {
-  animation: slide-in 1s forwards;
+  transform: translateX(0);
 }
 
 .lock-scroll {
@@ -30,32 +30,15 @@ li {
 }
 
 header {
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100vh;
   width: 100%;
-  margin-left: -100%;
-  background-color: white;
+  background-color: #fff;
   z-index: 100;
-}
-
-@keyframes slide-in {
-  from {
-    margin-left: -100%;
-  }
-
-  to {
-    margin-left: 0;
-  }
-}
-
-@keyframes slide-out {
-  from {
-    margin-left: 0;
-  }
-
-  to {
-    margin-left: -100%;
-  }
+  transform: translateX(-100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header > ul {
@@ -135,8 +118,8 @@ header nav a.highlighted-menu {
 
 #headline > h1 {
   background: linear-gradient(to right, #f11904, #a60000, #f6551b, #ef3204);
-  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   margin: 24px 0;
@@ -186,14 +169,22 @@ section.about-details h2 {
   color: #272a31;
 }
 
-#headline > h3,
-#about-headline > h3 {
+#headline > .headline-greeting,
+#about-headline > .headline-greeting {
   color: #ee523c;
   margin: 24px 0;
+  font-weight: 700;
+  font-size: 1.17em;
 }
 
-#about-headline > h3 {
+#about-headline > .headline-greeting {
   text-align: center;
+}
+
+#headline > .headline-rights {
+  color: #4f4f4f;
+  margin: 16px 0;
+  font-weight: 700;
 }
 
 footer > p {
@@ -217,7 +208,7 @@ section.about-details p {
 }
 
 #program-outline li p {
-  color: #d3d3d3;
+  color: #f0f2f5;
   font-size: 12px;
   flex-basis: 65%;
 }
@@ -256,7 +247,7 @@ section.about-details p {
 }
 
 #program-outline {
-  background-image: url('./assets/images/pattern_bg.png');
+  background-image: url('../images/pattern_bg.png');
   background-size: 1.7em;
   background-color: #272a31;
   display: flex;
@@ -388,7 +379,7 @@ div.past-events figure > figcaption {
 
 .player-card picture {
   flex: 0 0 30%;
-  background-image: url('./assets/images/chess-board.jpg');
+  background-image: url('../images/chess-board.jpg');
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: top left;
@@ -412,7 +403,7 @@ div.past-events figure > figcaption {
 }
 
 #partners > h2 {
-  color: #9f9fa1;
+  color: #e2e4e8;
   font-size: 17px;
   align-self: center;
   margin: 12px;
@@ -451,21 +442,13 @@ footer {
   justify-content: space-evenly;
 }
 
-footer.about-footer img.desktop {
-  display: none;
-}
-
-footer.about-footer img.mobile {
-  display: block;
-}
-
 div.breadcrumbs {
   display: none;
 }
 
 @media screen and (min-width: 768px) {
   .mobile-hidden {
-    animation: none;
+    transform: none;
   }
 
   .lock-scroll {
@@ -476,7 +459,8 @@ div.breadcrumbs {
     display: block;
     position: relative;
     height: auto;
-    margin-left: 0;
+    transform: none;
+    transition: none;
     box-shadow: 3px 1px 10px #909091;
   }
 
@@ -715,26 +699,18 @@ div.breadcrumbs {
     background-color: #2e2e2e;
   }
 
-  footer.about-footer img.mobile {
-    display: none;
-  }
-
-  footer.about-footer img.desktop {
-    display: block;
-  }
-
   #partners.partners-about {
     display: none;
   }
 
   div.breadcrumbs {
-    display: block;
-    position: relative;
-    right: -105%;
-    top: -30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     font-weight: 500;
     color: #2e2e2e;
     font-size: 14px;
+    margin-bottom: 12px;
   }
 
   div.breadcrumbs a {
