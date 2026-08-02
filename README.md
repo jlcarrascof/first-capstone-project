@@ -70,7 +70,7 @@ In [this video](https://www.loom.com/share/4f041649025548649006fb8bf20d2b74) you
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://jlcarrascof.github.io/first-capstone-project/)
+- [Live Demo Link](https://first-capstone-project-tau.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
