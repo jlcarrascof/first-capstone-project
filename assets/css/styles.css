@@ -118,8 +118,8 @@ header nav a.highlighted-menu {
 
 #headline > h1 {
   background: linear-gradient(to right, #f11904, #a60000, #f6551b, #ef3204);
-  background-clip: text; /* stylelint-disable-line */
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   margin: 24px 0;
