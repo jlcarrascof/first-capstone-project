@@ -1,8 +1,6 @@
 const menuBtn = document.querySelector('#menu-button');
 const closeMenuBtn = document.querySelector('i.close-menu');
 const header = document.querySelector('header');
-const playerCardSkeleton = document.querySelector('#player-card-skeleton');
-const featuredPlayers = document.querySelector('#featured-players ul');
 const body = document.querySelector('body');
 const FEATURED_PLAYERS = [
   {
