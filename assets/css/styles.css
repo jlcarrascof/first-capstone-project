@@ -225,7 +225,7 @@ section.about-details p {
 }
 
 #program-outline li p {
-  color: #d3d3d3;
+  color: #f0f2f5;
   font-size: 12px;
   flex-basis: 65%;
 }
@@ -420,7 +420,7 @@ div.past-events figure > figcaption {
 }
 
 #partners > h2 {
-  color: #9f9fa1;
+  color: #e2e4e8;
   font-size: 17px;
   align-self: center;
   margin: 12px;
