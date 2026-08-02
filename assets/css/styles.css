@@ -442,14 +442,6 @@ footer {
   justify-content: space-evenly;
 }
 
-footer.about-footer img.desktop {
-  display: none;
-}
-
-footer.about-footer img.mobile {
-  display: block;
-}
-
 div.breadcrumbs {
   display: none;
 }
@@ -705,14 +697,6 @@ div.breadcrumbs {
 
   footer.about-footer {
     background-color: #2e2e2e;
-  }
-
-  footer.about-footer img.mobile {
-    display: none;
-  }
-
-  footer.about-footer img.desktop {
-    display: block;
   }
 
   #partners.partners-about {
